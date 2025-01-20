@@ -1,8 +1,5 @@
 <?php
-require_once './src/config/database.php';
-require_once './src/controllers/UserController.php';
-require_once './src/controllers/AppointmentController.php';
-require_once './src/controllers/PaymentController.php';
+require_once 'autoload.php';
 
 $page = $_GET['page'] ?? 'home';
 
